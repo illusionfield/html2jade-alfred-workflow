@@ -1,6 +1,10 @@
+#!//usr/bin/env zsh
+
+PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+echo $(npm bin)
 ## Functions ##
 function installNpm {
-  npm install html2jade
+  npm install
   return
 }
 
@@ -12,7 +16,7 @@ function cleanNpm {
 
 function convertToJade {
   test -z "$(pbpaste)" && return
-  pbpaste | "$(npm bin)/html2jade" --bodyless --noemptypipe | pbcopy
+  pbpaste | "$(npm bin)/html2jade" --bodyless --noemptypipe --noattrcomma --donotencode -n 2 | pbcopy
   return
 }
 

@@ -1,0 +1,23 @@
+{
+  "name": "html2jade-alfred",
+  "version": "1.0.0",
+  "description": "html2jade-alfred-workflow =========================",
+  "main": "index.js",
+  "dependencies": {
+    "html2jade": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illusionfield/html2jade-alfred-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illusionfield/html2jade-alfred-workflow/issues"
+  },
+  "homepage": "https://github.com/illusionfield/html2jade-alfred-workflow#readme"
+}
