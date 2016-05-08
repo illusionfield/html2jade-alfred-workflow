@@ -1,23 +1,16 @@
 {
-  "name": "html2jade-alfred",
+  "name": "alfred-workflows-deps",
   "version": "1.0.0",
-  "description": "html2jade-alfred-workflow =========================",
-  "main": "index.js",
-  "dependencies": {
-    "html2jade": "^0.8.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/illusionfield/html2jade-alfred-workflow.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/illusionfield/html2jade-alfred-workflow/issues"
-  },
-  "homepage": "https://github.com/illusionfield/html2jade-alfred-workflow#readme"
+  "description": "alfred workflow deps",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "html2pug": "0.0.0",
+    "js2coffee": "^2.2.0",
+    "json2yaml": "^1.1.0",
+    "lebab": "^1.2.0",
+    "pug": "^2.0.0-alpha6",
+    "yaml2json": "^1.0.2"
+  }
 }

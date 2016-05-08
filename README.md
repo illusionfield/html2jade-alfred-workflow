@@ -1,8 +1,9 @@
-html2jade-alfred-workflow
+2Convert Alfred Workflow
 =========================
 
-An Alfred workflow that converts html to jade.
+An Alfred workflow that converts copied Document and puts it on your clipboard.
 
 ##Requirements
-* [NodeJS](http://nodejs.org/)
-* [Alfred Powerpack](http://www.alfredapp.com/powerpack/) & [Alfred v2](http://www.alfredapp.com/)
+- [Ruby](https://www.ruby-lang.org/)
+- [Nodejs](http://nodejs.org/)
+- [Alfred Powerpack](http://www.alfredapp.com/powerpack/)

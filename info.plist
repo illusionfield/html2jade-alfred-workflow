@@ -8,6 +8,17 @@
 	<string>Development</string>
 	<key>connections</key>
 	<dict>
+		<key>00F02CD0-C1B6-4A5B-9204-6DA4AA33584B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B1F306C9-1ABA-48F5-83A2-F22CCE53A792</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>1457D4B8-BA7B-4B07-BD21-8EB11C71BC74</key>
 		<array>
 			<dict>
@@ -19,11 +30,33 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>49D05FF3-C5C8-428E-8BC1-1E07FEA36F97</key>
+		<key>30BFCCFE-0231-47B5-A0E9-8B629B735022</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>5F358966-DBE1-4D17-AF0C-F7302F1CF9E9</string>
+				<string>A46C50B0-7456-464C-B867-EF9934808B76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>37721363-9104-484D-8827-F79F72C5661E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A46C50B0-7456-464C-B867-EF9934808B76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4D2A3F32-6795-44A2-A1E6-1F39B897C314</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A46C50B0-7456-464C-B867-EF9934808B76</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -41,11 +74,66 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>B6AB55D8-B838-4504-B721-FC6BA81C41DC</key>
+		<key>94CE5BD0-82FA-4C46-8BD6-59207FF0E962</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>49D05FF3-C5C8-428E-8BC1-1E07FEA36F97</string>
+				<string>30BFCCFE-0231-47B5-A0E9-8B629B735022</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>98D10B41-E4FB-4F2A-88E4-D49B71D0D8D1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D237ED3E-8236-407D-A21D-0C9B9AE39FF5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B1F306C9-1ABA-48F5-83A2-F22CCE53A792</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A46C50B0-7456-464C-B867-EF9934808B76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B6264928-1055-41AC-B4E1-37B354BCFF8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4D2A3F32-6795-44A2-A1E6-1F39B897C314</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>CDD57E7C-0A9F-4C98-AE11-B38D04FF9454</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>37721363-9104-484D-8827-F79F72C5661E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>D237ED3E-8236-407D-A21D-0C9B9AE39FF5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A46C50B0-7456-464C-B867-EF9934808B76</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -56,34 +144,13 @@
 	<key>createdby</key>
 	<string>Jozsef Hoffmann</string>
 	<key>description</key>
-	<string>Converts copied Html to Jade and puts it on your clipboard</string>
+	<string>Converts copied Document and puts it on your clipboard</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Html2Jade</string>
+	<string>2Convert</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>html2</string>
-				<key>subtext</key>
-				<string>Convert Html to Jade</string>
-				<key>text</key>
-				<string>Html2Jade</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>1457D4B8-BA7B-4B07-BD21-8EB11C71BC74</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -92,15 +159,15 @@
 				<key>onlyshowifquerypopulated</key>
 				<false/>
 				<key>output</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>removeextension</key>
 				<false/>
 				<key>sticky</key>
 				<false/>
 				<key>text</key>
-				<string>Paste your fresh Jade!</string>
+				<string>Success! Paste your Code!</string>
 				<key>title</key>
-				<string>Html2Jade</string>
+				<string>2Convert</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -112,56 +179,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>output</key>
-				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
-				<key>title</key>
-				<string>Html2Jade Restored!</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>5F358966-DBE1-4D17-AF0C-F7302F1CF9E9</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>html2restore</string>
-				<key>subtext</key>
-				<string>Replaces existing installation of Html2Jade with the latest from npm</string>
-				<key>text</key>
-				<string>Restore Html2Jade</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B6AB55D8-B838-4504-B721-FC6BA81C41DC</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>4</integer>
 				<key>script</key>
-				<string>chmod 777 html2jade.sh &amp;&amp; ./html2jade.sh</string>
+				<string>source "$HOME/.alfred/functions.sh" &amp;&amp; awr html2pug</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -175,59 +198,296 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>html2</string>
+				<key>subtext</key>
+				<string>Convert Html to Pug</string>
+				<key>text</key>
+				<string>Html2Pug</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1457D4B8-BA7B-4B07-BD21-8EB11C71BC74</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>4</integer>
 				<key>script</key>
-				<string>./html2jade.sh clean</string>
+				<string>source "./functions.sh" &amp;&amp; awr html2haml</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>49D05FF3-C5C8-428E-8BC1-1E07FEA36F97</string>
+			<string>37721363-9104-484D-8827-F79F72C5661E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>h2h</string>
+				<key>subtext</key>
+				<string>Convert HTML to Haml</string>
+				<key>text</key>
+				<string>html2haml</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CDD57E7C-0A9F-4C98-AE11-B38D04FF9454</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>source "./functions.sh" &amp;&amp; awr js2coffee</string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4D2A3F32-6795-44A2-A1E6-1F39B897C314</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>js</string>
+				<key>subtext</key>
+				<string>Convert JS to CoffeeScript</string>
+				<key>text</key>
+				<string>JS2Coffee</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B6264928-1055-41AC-B4E1-37B354BCFF8A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>source "./functions.sh" &amp;&amp; awr json2yaml</string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>30BFCCFE-0231-47B5-A0E9-8B629B735022</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>yson</string>
+				<key>subtext</key>
+				<string>Convert Json2Yaml</string>
+				<key>text</key>
+				<string>Json2Yaml</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>94CE5BD0-82FA-4C46-8BD6-59207FF0E962</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>scss2</string>
+				<key>subtext</key>
+				<string>Convert Scss to Sass</string>
+				<key>text</key>
+				<string>scss2sass</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>00F02CD0-C1B6-4A5B-9204-6DA4AA33584B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>5</integer>
+				<key>script</key>
+				<string>source "./functions.sh" &amp;&amp; awr sass-convert</string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B1F306C9-1ABA-48F5-83A2-F22CCE53A792</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>es2</string>
+				<key>subtext</key>
+				<string>Modernizes JavaScript code!</string>
+				<key>text</key>
+				<string>js2es6</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>98D10B41-E4FB-4F2A-88E4-D49B71D0D8D1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>source "./functions.sh" &amp;&amp; awr lebab</string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D237ED3E-8236-407D-A21D-0C9B9AE39FF5</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>html2jade-alfred-workflow
+	<string>2Convert Alfred Workflow
 =========================
 
-An Alfred workflow that converts html to jade.</string>
+An Alfred workflow that converts copied Document and puts it on your clipboard.</string>
 	<key>uidata</key>
 	<dict>
+		<key>00F02CD0-C1B6-4A5B-9204-6DA4AA33584B</key>
+		<dict>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
 		<key>1457D4B8-BA7B-4B07-BD21-8EB11C71BC74</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>49D05FF3-C5C8-428E-8BC1-1E07FEA36F97</key>
+		<key>30BFCCFE-0231-47B5-A0E9-8B629B735022</key>
 		<dict>
 			<key>ypos</key>
-			<real>280</real>
+			<real>350</real>
 		</dict>
-		<key>5F358966-DBE1-4D17-AF0C-F7302F1CF9E9</key>
+		<key>37721363-9104-484D-8827-F79F72C5661E</key>
 		<dict>
 			<key>ypos</key>
-			<real>130</real>
+			<real>120</real>
+		</dict>
+		<key>4D2A3F32-6795-44A2-A1E6-1F39B897C314</key>
+		<dict>
+			<key>ypos</key>
+			<real>230</real>
 		</dict>
 		<key>87D2CF1D-75D9-4A7A-A6CF-FFA2C087BBB8</key>
 		<dict>
 			<key>ypos</key>
-			<real>160</real>
+			<real>10</real>
+		</dict>
+		<key>94CE5BD0-82FA-4C46-8BD6-59207FF0E962</key>
+		<dict>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>98D10B41-E4FB-4F2A-88E4-D49B71D0D8D1</key>
+		<dict>
+			<key>ypos</key>
+			<real>610</real>
 		</dict>
 		<key>A46C50B0-7456-464C-B867-EF9934808B76</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>B6AB55D8-B838-4504-B721-FC6BA81C41DC</key>
+		<key>B1F306C9-1ABA-48F5-83A2-F22CCE53A792</key>
+		<dict>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
+		<key>B6264928-1055-41AC-B4E1-37B354BCFF8A</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>CDD57E7C-0A9F-4C98-AE11-B38D04FF9454</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
+		</dict>
+		<key>D237ED3E-8236-407D-A21D-0C9B9AE39FF5</key>
+		<dict>
+			<key>ypos</key>
+			<real>620</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>

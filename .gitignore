@@ -10,3 +10,27 @@ Thumbs.db
 # Application specific files
 node_modules
 .npm*
+bower_components/*
+.codekit-cache
+.sass-cache
+
+bundle
+.bundle/**
+!.bundle/config
+#/.gem/**
+*.lock
+
+*.sublime-workspace
+
+#Custom
+.idea/
+*.log
+
+*.map
+
+composer.lock
+.composer
+
+.tmp
+.bin/composer
+dist
