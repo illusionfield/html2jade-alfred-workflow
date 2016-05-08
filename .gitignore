@@ -13,6 +13,7 @@ node_modules
 bower_components/*
 .codekit-cache
 .sass-cache
+.gems
 
 bundle
 .bundle/**
